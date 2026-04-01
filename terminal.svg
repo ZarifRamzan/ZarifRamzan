@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xml:space="preserve" width="100%" viewBox="0 0 680 524" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="w"><rect width="680" height="524" rx="12"/></clipPath>
+<pattern id="scan" width="1" height="4" patternUnits="userSpaceOnUse">
+  <rect width="1" height="2" fill="black" opacity="0.025"/>
+</pattern>
+<style>
+.mono{font-family:ui-monospace,'Cascadia Code','Source Code Pro',Menlo,Consolas,monospace;font-size:13px}
+.sm{font-family:ui-monospace,'Cascadia Code','Source Code Pro',Menlo,Consolas,monospace;font-size:11px}
+@keyframes fi{to{opacity:1}}
+.p0{opacity:0;animation:fi .001s .7s forwards}
+.l1{opacity:0;animation:fi .001s .9s forwards}
+.l2{opacity:0;animation:fi .001s 1.05s forwards}
+.l3{opacity:0;animation:fi .001s 1.2s forwards}
+.l4{opacity:0;animation:fi .001s 1.35s forwards}
+.l5{opacity:0;animation:fi .001s 1.5s forwards}
+.l6{opacity:0;animation:fi .001s 1.65s forwards}
+.l7{opacity:0;animation:fi .001s 1.82s forwards}
+.l8{opacity:0;animation:fi .001s 2.0s forwards}
+.l9{opacity:0;animation:fi .001s 2.17s forwards}
+.l10{opacity:0;animation:fi .001s 2.35s forwards}
+.l11{opacity:0;animation:fi .001s 2.52s forwards}
+.l12{opacity:0;animation:fi .001s 2.68s forwards}
+.l13{opacity:0;animation:fi .001s 2.83s forwards}
+.l14{opacity:0;animation:fi .001s 3.0s forwards}
+.l15{opacity:0;animation:fi .001s 3.17s forwards}
+.l16{opacity:0;animation:fi .001s 3.33s forwards}
+.l17{opacity:0;animation:fi .001s 3.52s forwards}
+.l18{opacity:0;animation:fi .001s 3.7s forwards}
+.l19{opacity:0;animation:fi .001s 3.87s forwards}
+</style>
+</defs>
+
+<g clip-path="url(#w)">
+
+<!-- Window background -->
+<rect width="680" height="524" fill="#161b22"/>
+
+<!-- ── Title bar ── -->
+<rect width="680" height="44" fill="#1c2128"/>
+<rect y="44" width="680" height="1" fill="#ffffff" fill-opacity=".06"/>
+
+<!-- Traffic lights -->
+<circle cx="24" cy="22" r="6" fill="#ff5f57"/>
+<circle cx="44" cy="22" r="6" fill="#ffbd2e"/>
+<circle cx="64" cy="22" r="6" fill="#28c840"/>
+
+<!-- Window title -->
+<text class="sm" x="340" y="27" text-anchor="middle" fill="#6e7681">zsh &#8212; <tspan fill="#adbac7">zarif@macbook</tspan> &#8212; ~/profile</text>
+
+<!-- ── Tab bar ── -->
+<rect y="45" width="680" height="29" fill="#1c2128"/>
+<rect y="73" width="680" height="1" fill="#ffffff" fill-opacity=".06"/>
+
+<!-- Active tab -->
+<text class="sm" x="56" y="64" text-anchor="middle" fill="#58a6ff">about.yaml</text>
+<rect x="16" y="71" width="80" height="2" fill="#58a6ff" rx="1"/>
+
+<!-- Inactive tabs -->
+<text class="sm" x="132" y="64" fill="#3d4451">skills.yaml</text>
+<text class="sm" x="224" y="64" fill="#3d4451">projects.yaml</text>
+
+<!-- ── Content ── -->
+
+<!-- Prompt -->
+<text class="mono p0" x="40" y="106"><tspan fill="#28c840">zarif</tspan><tspan fill="#4d5566">@</tspan><tspan fill="#58a6ff">macbook</tspan><tspan fill="#adbac7">&#160;</tspan><tspan fill="#e3b341">~/profile</tspan><tspan fill="#adbac7">&#160;%&#160;</tspan><tspan fill="#768390">cat about.yaml</tspan></text>
+
+<!-- apiVersion: v1 -->
+<text class="mono l1" x="40" y="126"><tspan fill="#ff7b72">apiVersion</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#ffa657">&#160;v1</tspan></text>
+
+<!-- kind: DevOpsEngineer -->
+<text class="mono l2" x="40" y="146"><tspan fill="#ff7b72">kind</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#a5d6ff">&#160;DevOpsEngineer</tspan></text>
+
+<!-- metadata: -->
+<text class="mono l3" x="40" y="166"><tspan fill="#ff7b72">metadata</tspan><tspan fill="#8b949e">:</tspan></text>
+
+<!--   name:      Zarif Ramzan -->
+<text class="mono l4" x="40" y="186"><tspan fill="#ff7b72">&#160;&#160;name</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#a5d6ff">&#160;&#160;&#160;&#160;&#160;&#160;Zarif Ramzan</tspan></text>
+
+<!--   namespace: production -->
+<text class="mono l5" x="40" y="206"><tspan fill="#ff7b72">&#160;&#160;namespace</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#ffa657">&#160;production</tspan></text>
+
+<!-- spec: -->
+<text class="mono l6" x="40" y="226"><tspan fill="#ff7b72">spec</tspan><tspan fill="#8b949e">:</tspan></text>
+
+<!--   role:     DevOps Engineer -->
+<text class="mono l7" x="40" y="246"><tspan fill="#ff7b72">&#160;&#160;role</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#79c0ff">&#160;&#160;&#160;&#160;&#160;DevOps Engineer</tspan></text>
+
+<!--   location: Kuala Lumpur, Malaysia -->
+<text class="mono l8" x="40" y="266"><tspan fill="#ff7b72">&#160;&#160;location</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#79c0ff">&#160;Kuala Lumpur, Malaysia&#160;</tspan><tspan fill="#e3b341">MY</tspan></text>
+
+<!--   focus: -->
+<text class="mono l9" x="40" y="286"><tspan fill="#ff7b72">&#160;&#160;focus</tspan><tspan fill="#8b949e">:</tspan></text>
+
+<!--     - Infrastructure Automation -->
+<text class="mono l10" x="40" y="306"><tspan fill="#8b949e">&#160;&#160;&#160;&#160;-</tspan><tspan fill="#7ee787">&#160;Infrastructure Automation</tspan></text>
+
+<!--     - CI/CD Pipeline Design -->
+<text class="mono l11" x="40" y="326"><tspan fill="#8b949e">&#160;&#160;&#160;&#160;-</tspan><tspan fill="#7ee787">&#160;CI/CD Pipeline Design</tspan></text>
+
+<!--     - Cloud Architecture -->
+<text class="mono l12" x="40" y="346"><tspan fill="#8b949e">&#160;&#160;&#160;&#160;-</tspan><tspan fill="#7ee787">&#160;Cloud Architecture</tspan></text>
+
+<!--     - Container Orchestration -->
+<text class="mono l13" x="40" y="366"><tspan fill="#8b949e">&#160;&#160;&#160;&#160;-</tspan><tspan fill="#7ee787">&#160;Container Orchestration</tspan></text>
+
+<!--   motto: "Automate everything..." -->
+<text class="mono l14" x="40" y="386"><tspan fill="#ff7b72">&#160;&#160;motto</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#d2a8ff">&#160;"Automate everything, deploy anywhere,</tspan></text>
+
+<!--           fail fast... -->
+<text class="mono l15" x="40" y="406"><tspan fill="#d2a8ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fail fast, recover faster"</tspan></text>
+
+<!--   status: -->
+<text class="mono l16" x="40" y="426"><tspan fill="#ff7b72">&#160;&#160;status</tspan><tspan fill="#8b949e">:</tspan></text>
+
+<!--     learning: ... -->
+<text class="mono l17" x="40" y="446"><tspan fill="#ff7b72">&#160;&#160;&#160;&#160;learning</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#79c0ff">&#160;Kubernetes CKA&#160;</tspan><tspan fill="#8b949e">|</tspan><tspan fill="#79c0ff">&#160;Terraform Advanced&#160;</tspan><tspan fill="#8b949e">|</tspan><tspan fill="#79c0ff">&#160;GitOps</tspan></text>
+
+<!--     building: ... -->
+<text class="mono l18" x="40" y="466"><tspan fill="#ff7b72">&#160;&#160;&#160;&#160;building</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#79c0ff">&#160;Scalable cloud infrastructure</tspan></text>
+
+<!--     passion:  ... -->
+<text class="mono l19" x="40" y="486"><tspan fill="#ff7b72">&#160;&#160;&#160;&#160;passion</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#79c0ff">&#160;&#160;Bridging Dev and Ops seamlessly</tspan></text>
+
+<!-- Blinking cursor -->
+<rect x="393" y="474" width="7" height="13" fill="#58a6ff" rx="1">
+  <animate attributeName="opacity" values="0;1" begin="3.95s" dur="0.001s" fill="freeze" id="ci"/>
+  <animate attributeName="opacity" values="1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0" begin="ci.end" dur="1s" repeatCount="indefinite"/>
+</rect>
+
+<!-- Scanline overlay -->
+<rect width="680" height="524" fill="url(#scan)" rx="12"/>
+
+<!-- ── Status bar ── -->
+<rect y="494" width="680" height="30" fill="#1c2128"/>
+<rect y="494" width="680" height="1" fill="#ffffff" fill-opacity=".06"/>
+
+<!-- Status left -->
+<circle cx="23" cy="509" r="4" fill="#28c840"/>
+<text class="sm" x="33" y="513" fill="#28c840">connected</text>
+<text class="sm" x="115" y="513" fill="#6e7681">YAML</text>
+<text class="sm" x="156" y="513" fill="#6e7681">UTF-8</text>
+
+<!-- Status right -->
+<text class="sm" x="474" y="513" fill="#6e7681">production</text>
+<rect x="536" y="500" width="128" height="16" rx="8" fill="#58a6ff" fill-opacity=".12"/>
+<text class="sm" x="600" y="513" text-anchor="middle" fill="#58a6ff">DevOps Engineer</text>
+
+</g>
+</svg>
